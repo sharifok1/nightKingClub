@@ -1,0 +1,23 @@
+.accordion-body{
+    background-color: #121212 !important;
+    color: #fff !important;
+    text-align: left;
+}
+.question{
+    font-size: 22px;
+    font-family: "BrownStd";
+    font-weight: 600;
+}
+.question span{
+    color: #aaa;
+    margin-right: 10px;
+}
+.questionAnswer{
+    color: #efefef;
+}
+.accurdian-icon{
+    background-color: #fff !important;
+    z-index: 22 !important;
+}
+
+

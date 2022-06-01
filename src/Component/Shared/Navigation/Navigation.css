@@ -1,0 +1,124 @@
+.navigation{
+    /* background-color: #3400de; */
+    color: #fff !important;
+}
+#navbar{
+    background-color: transparent !important;
+    height: 85px;    
+    font-weight:300 !important;
+    text-transform: uppercase;
+    font-size: 15px;    
+}
+.navbar-toggler{
+    padding: 0;
+    border: none;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.branding{
+    display: flex;
+    align-items: center;
+}
+.branding h1{
+    font-size: 30px;
+    margin-bottom: -0px;
+    font-family: 'Brownstd';
+    color: #FFC508;
+}
+.text-yellow{
+    color: #FFC508;
+}
+.logo{
+    width: 73px;
+    height: 50px;
+    padding-right: 15px;
+}
+.social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons{
+    width: 30px;
+    height: 30px;
+    background-image: linear-gradient(#FFC603, #ff7c00);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.icons i{
+    width: 28px;
+    height: 28px;
+    background-color: #001;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding:0 12px ;
+
+}
+.manu-nav a{
+    text-decoration: none !important;
+    color: #ddd;
+
+}
+.manu-nav span{
+    text-decoration: none !important;
+    margin: 10px;
+    position: relative;
+    transition: .5s;
+}
+.items{
+    position: relative;
+    transition:ease-in-out .5s !important;
+}
+.items:hover::after{
+    position: absolute;
+    content: "";
+    background: linear-gradient(90deg, rgba(255, 55, 215, 0.371) 1.85%, #ffc508e2 50.04%, rgba(252, 17, 127, 0.322) 96.91%);
+    height: 2px;
+    width: 90%;
+    left: 5%;
+    top: 25px;
+    border-radius: 50%;
+    transition: .5s;
+    transition: ease-in .5s !important; 
+}
+@media only screen and (max-width:992px){
+    #navbar{     
+        height: 100%;  
+    }
+    .items:hover::after{
+        width: 20%;
+        left: 40%;
+        top: 25px;
+        border-radius: 50%;
+        transition: .5s;
+        transition: ease-in .5s !important; 
+    }  
+    .items{
+        position: relative;
+        transition:ease-in-out .5s !important;
+        margin-bottom: 15px;
+    }
+    .icons{
+      margin-bottom: 50px;
+    }
+}
+@media only screen and (max-width:445px){
+    .branding h1{
+        font-size: 20px;
+        margin-bottom: -0px;
+        font-family: 'Brownstd';
+        color: #FFC508;
+    }
+    .logo{
+        width: 58px;
+        height: 35px;
+        padding-right: 15px;
+    } 
+   
+}
