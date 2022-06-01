@@ -11,6 +11,7 @@ function App() {
          <Route path="/mint" element={ <Mint/>} />
      </Routes>
     </div>
+    // end//
   );
 }
 
